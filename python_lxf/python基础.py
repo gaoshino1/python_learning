@@ -62,5 +62,18 @@
 
 # 格式化
 
-print('Hello, %s' % 'world')
-print('Hi, %s, you have $%d.' % ('Michael', 1000000))
+# print('Hello, %s' % 'world')
+# print('Hi, %s, you have $%d.' % ('Michael', 1000000))
+# print('%2d-%02d' % (3, 1))
+# print('%.2f' % 3.1415926)
+# print('growth rate: %d %%' % 7)
+
+# print('Hello, {0}, 成绩提升了 {1:.1f}%'.format('小明', 17.125))
+
+s1 = 72
+s2 = 85
+r = (85 - 72) / 72 * 100
+print('小明的成绩从72到85，成绩提升了: %2.1f%%' % r)
+print('小明的成绩从72到85，成绩提升了: {0:2.1f}%'.format(r))
+
+# 使用List和tuple
