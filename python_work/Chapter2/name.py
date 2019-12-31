@@ -24,5 +24,3 @@ favourite_language = "\t\nPython    "
 print(favourite_language)
 print(favourite_language.lstrip())  # 删除字符串前面的空白
 print(favourite_language.strip())  # 删除字符串前后的空白
-
-# 看到 P20
