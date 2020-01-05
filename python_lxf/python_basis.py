@@ -234,6 +234,7 @@ print(s)
 s.remove(3)
 print(s)
 
+# 可以当作数学集合来运算
 s1 = set([1, 2, 3])
 s2 = set([2, 3, 4])
 print(s1 & s2)  # 交
@@ -247,3 +248,9 @@ print(a)
 a = 'abc'
 print(a.replace('a', 'A'))
 print(a)
+
+s = set((1, 2, 3))
+print(s)
+
+# s = set((1, [2, 3]))
+# print(s)  # TypeError: unhashable type: 'list'
