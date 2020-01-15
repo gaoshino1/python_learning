@@ -31,25 +31,31 @@
 # str = 'ABCDEFG'
 # print(str[:2])
 
-def trim(s):
-    while s[:1] == " ":
-        s = s[1:]
-    while s[-1:] == " ":
-        s = s[:-2]
-    return s
+# ## 作业
+# def trim(s):
+#     while len(s) > 0 and s[:1] == " ":
+#         s = s[1:]
+#     while len(s) > 0 and s[-1:] == " ":
+#         s = s[:-2]
+#     return s
 
-# 测试:
-if trim('hello  ') != 'hello':
-    print('测试失败!')
-elif trim('  hello') != 'hello':
-    print('测试失败!')
-elif trim('  hello  ') != 'hello':
-    print('测试失败!')
-elif trim('  hello  world  ') != 'hello  world':
-    print('测试失败!')
-elif trim('') != '':
-    print('测试失败!')
-elif trim('    ') != '':
-    print('测试失败!')
-else:
-    print('测试成功!')
+# ## 作业测试:
+# if trim('hello  ') != 'hello':
+#     print('测试失败!')
+# elif trim('  hello') != 'hello':
+#     print('测试失败!')
+# elif trim('  hello  ') != 'hello':
+#     print('测试失败!')
+# elif trim('  hello  world  ') != 'hello  world':
+#     print('测试失败!')
+# elif trim('') != '':
+#     print('测试失败!')
+# elif trim('    ') != '':
+#     print('测试失败!')
+# else:
+#     print('测试成功!')
+
+
+# 迭代
+d = {'a':1, 'b':2, 'c':3}
+print(d)
