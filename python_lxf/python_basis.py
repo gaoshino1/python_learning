@@ -216,7 +216,7 @@
 
 # print(d.get('Bob'))
 # print(d.get('Gaoshi'))
-# print(d.get('Gaoshino1', 99999999))
+# print(d.get('Gaoshino1', 99999999))  # 如果找不到对应的值，返回指定的值
 
 # d.pop('Bob')
 # print(d)

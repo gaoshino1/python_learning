@@ -68,7 +68,7 @@ from functools import reduce
 # L2 = list(map(normalize, L1))
 # print(L2)
 
-## 练习：Python提供的sum()函数可以接受一个list并求和，编写一个函数，可以接受一个list兵利用reduce()求积
+## 练习：Python提供的sum()函数可以接受一个list并求和，编写一个函数，可以接受一个list并利用reduce()求积
 # def prod(L):
 #     def product(x, y):
 #         return x * y
