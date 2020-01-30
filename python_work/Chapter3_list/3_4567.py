@@ -30,6 +30,7 @@ while len(names) > 2:
 
 for n in names:
     print("Hey " + n + ", come to the party.")
+print("Total:", len(names))
 
 del names[0]
 del names[0]
