@@ -235,7 +235,7 @@ import math
 # def product(*args):
 #     result = 1
 #     if len(args) == 0:
-#         raise TypeError("没有传如参数")
+#         raise TypeError("没有传入参数")
 #     else:
 #         for n in args:
 #             result *= n

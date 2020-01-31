@@ -234,7 +234,7 @@ import os
 #     print('测试失败!')
 
 # 迭代器
-## 可以被next()函数调用并不断返回下一个值的对象称为迭代器：Iterable
+## 可以被next()函数调用并不断返回下一个值的对象称为迭代器：Iterator
 print( isinstance((x for x in range(10)), Iterator) )
 print( isinstance([], Iterator) )
 print( isinstance({}, Iterator) )
@@ -252,4 +252,4 @@ print( isinstance(iter('abc'), Iterator) )
 ## 所以Iterator的计算是惰性的，只有在需要返回下一个数据时它才会计算。
 
 ## 凡是可作用于for循环的对象都是Iterable类型
-## 凡是可作用于next()函数的都是Iterator类型，它们表示的是一个惰性绩的序列
+## 凡是可作用于next()函数的都是Iterator类型，它们表示的是一个惰性计算的序列
