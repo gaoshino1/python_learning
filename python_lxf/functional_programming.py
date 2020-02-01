@@ -38,6 +38,7 @@ from functools import reduce
 #     return digits[s]
 
 # print( reduce(fn, [1, 3, 5, 7, 9]) )
+# print(list(map(char2sum, '13579')))
 # print(reduce(fn, map(char2sum, '13579')))
 
 # DIGITS = {'0':0, '1':1, '2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9}
@@ -80,7 +81,7 @@ from functools import reduce
 # else:
 #     print('测试失败!')
 
-## 练习：利用map和reduce编写一个str2float函数，把字符串'123,456'转换成浮点数123.456
+## 练习：利用map和reduce编写一个str2float函数，把字符串'123.456'转换成浮点数123.456
 # def str2float(s):
 #     def str2int(s):  # 也可以不定义，使用内置的int()函数
 #         digits = {'0':0, '1':1, '2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9}
@@ -133,8 +134,8 @@ from functools import reduce
 
 ## 练习：回数是指从左向右读和从右向左读都是一样的数，利用filter()筛选出回数
 def is_palindrome(n):
+    pass
     
-
 # 测试:
 output = filter(is_palindrome, range(1, 1000))
 print('1~1000:', list(output))
